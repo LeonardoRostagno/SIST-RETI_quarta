@@ -1,0 +1,11 @@
+TURTLE
+
+import turtle # importa turtle e tutto ciò che contiene
+		si deve usare poi il . per gli attributi
+
+robot = turtle.Turtle() # da ora robot assume turtle.Turtle
+ 
+win = turtle.screen() # 
+
+win.listen() # mette la finestra in ascolto (es: pressione tasti)
+win.onkey() # rileva la pressione di un tasto e lo associa a una funzione

@@ -1,0 +1,15 @@
+supponiamo di avere un robot che si muove sul pavimento
+
+memorizzare un pavimento e degli ostacoli
+
+pavimento --> matrice (salvata sotto forma di lista di liste)
+definire un numero di piastrelle Nx e Ny
+
+[[], [], ...]  --> celle libere  --> id celle libere 
+creare dizionario con le possibilità 
+es dizionario = {0: [1, 6], 1: [6, 7], ...}
+
+celle libere = 0
+celle occupate = 1
+
+pavimento = [[1, 1, 0, 0, 0, 0], [0, 0, 0, 0, 1, 0], ...]
